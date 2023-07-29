@@ -56,9 +56,6 @@
 #### Solution
 
 ```javascript
-    let count = 42
-    let userName = '42'
-
     let numInStr1 = String(count)
     let numInStr2 = count + ""
 
