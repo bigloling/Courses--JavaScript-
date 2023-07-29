@@ -1,27 +1,14 @@
-Task 1
-/*Создайте переменные, затем сложите их и выведите результат в консоль разработчика.*/
+// Task 1
 
 const x = 20
 const y = 58
 const z = 42
 
-// Solution //
-
 console.log(x + y + z)
 
 
 
-// Task 2 //
-/*Создайте константы:
-
-    - количество секунд в минуте
-    - количество минут в часу
-    - количество часов в сутках
-    - количество суток в году
-    
-Посчитайте ваш возраст в секундах и поместите результат в переменную **`myAgeInSeconds`***/
-
-// Solution //
+// Task 2
 
 const sec = 60
 const min = 60
@@ -47,3 +34,35 @@ let strInNum2 = +userName
 
 typeof(numInStr1, strInNum1, strInNum2)
 
+
+// Task 4
+
+let num = 10
+let str = "one"
+let bool = true
+
+console.log(`Variable value: ${num} has type: ${typeof(num)}`)
+console.log(`Variable value: ${str} has type: ${typeof(str)}`)
+console.log(`Variable value: ${bool} has type: ${typeof(bool)}`)
+
+
+// Task 5
+
+let name = prompt("Enter your name: ")
+let agee = prompt("Enter your age: ")
+
+console.log(`My name is ${name}, I'm ${agee} y.o.`)
+
+
+// ADVANCED level
+
+// Task 1
+
+let a = 4
+let b = 3
+
+a = a + b
+b = a - b
+a = a - b
+
+console.log(`${a},${b}`)
