@@ -27,7 +27,7 @@ const sec = 60
 const min = 60
 const hour = 24
 const day = 365
-let age = 19
+let age = 20
 
 let myAgeInSeconds = age * day * hour * min * sec
 console.log(myAgeInSeconds) // 599'184'000 sec
