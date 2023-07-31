@@ -58,9 +58,6 @@
 ```javascript
     let numInStr1 = String(count)
     let numInStr2 = count + ""
-    let numInStr3 = count
-    console.log(numInStr3)
-    typeof(numInStr3)
 
     let strInNum1 = Number(userName)
     let strInNum2 = +userName
