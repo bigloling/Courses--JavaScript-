@@ -32,10 +32,10 @@
 #### Solution
 
 ```javascript
-    const sec = 60
-    const min = 60
-    const hour = 24
-    const day = 365
+    const SEC = 60
+    const MIN = 60
+    const HOUR = 24
+    const DAY = 365
     let age = 19
 
     let myAgeInSeconds = age * day * hour * min * sec
@@ -58,9 +58,13 @@
 ```javascript
     let numInStr1 = String(count)
     let numInStr2 = count + ""
+    let numInStr3 = count
+    console.log(numInStr3)
+    typeof(numInStr3)
 
     let strInNum1 = Number(userName)
     let strInNum2 = +userName
+    let strInNum3 = userName / 1
 ```
 
 
